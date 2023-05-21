@@ -26,7 +26,7 @@ export class GrowdeverController {
 
             return res.status(201).send({
                 ok: true,
-                message: "Growdever was successfully created",
+                message: "User was successfully created",
                 data: growdever,
             });
         } catch (error: any) {
